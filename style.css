@@ -1,0 +1,326 @@
+ /*
+ Theme Name: Showmax
+ Theme URI: http://www.bateauxtheme.com
+ Description: Bateaux Child Theme.
+ Author: Twisttheme
+ Template: bateaux
+ Version: 1.0.0
+ Text Domain: bateaux-child
+ 
+
+
+blue: #0383ED
+
+Dark Light Grey: ##454547
+
+*/ 
+
+/** Titles **/
+body main h1 {
+	font-family: 'Archivo Black', 'montserrat', helvetica, arial, sans-serif;
+	font-size: 62px;
+}
+body h2 {
+	font-family: 'Archivo Black', 'montserrat', helvetica, arial, sans-serif;
+}
+body h3 {
+	font-family: 'Archivo Black', 'montserrat', helvetica, arial, sans-serif;
+}
+body h4 {
+	font-family: 'PT Sans', 'Open Sans', helvetica, arial, sans-serif;
+    
+    font-size: 1.8em;
+    border-bottom: solid 3px #0383ed !important;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+body h5 {
+	font-family: 'PT Sans', 'Open Sans', helvetica, arial, sans-serif !important;
+    font-size: 1.25em;
+    line-height: 1.6em;
+    font-weight: bold !important;
+}
+body h6 {
+	font-family: 'PT Sans', 'Open Sans', helvetica, arial, sans-serif;
+}
+body p {
+    color: white;
+}
+body {
+    color: white;
+}
+body .btx-text-content-inner, body .btx-section-wrapper, body .btx-box-content {
+    color: white;
+    font-size: 14px;
+}
+
+
+
+/** Menu **/
+
+body .btx-navbar .btx-menu a, body .btx-navbar--mobile .btx-menu a, .btx-navbar .btx-menu > li:before, .btx-side-navbar .btx-menu a {
+	
+	
+	 margin-top: 3px;  
+}
+body .btx-navbar, body .btx-topbar {
+	
+	 
+}
+body .btx-navbar {
+	 background-color: #131519;
+	 border-width: 4px;
+}
+body .btx-topbar {
+	 background-color: black;
+	 border-width: 0px;
+}
+body .btx-navbar .btx-menu > li > .sub-menu {
+	margin-top: -5px;
+	padding-top: 10px;
+}
+body .btx-navbar .btx-menu > li > .sub-menu li a {
+	color: white;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+body .btx-dark-scheme .btx-s-bg-bg {
+	border-top: solid 3px #0383ED;
+	background-color: #222222;
+	color: white !important;
+}
+
+
+
+/** Titles **/
+
+#showmax-title  {	
+	padding: 0px;	
+}
+#showmax-title .btx-space {	
+	height: 250px !important;
+	max-height: 30vh;	
+}
+#showmax-title h1 {
+	position: relative;
+	margin: auto;
+	padding: 0px;
+	line-height: .8em;
+	text-align: left ;
+	font-size: 3.1em;
+	color: white;
+	
+	z-index: 1;
+	text-transform: uppercase;
+	max-width: 1200px;
+	width: 90%;
+	font-family: 'Archivo Black', 'montserrat', helvetica, arial, sans-serif;
+}
+#showmax-title .btx-p-border-border {
+    background-color: #0383ED !important;
+}
+#showmax-title .btx-heading {
+	margin-bottom: 5px;
+}
+#showmax-title .btx-section-wrapper {	
+	padding: 0px;	
+}
+#showmax-title .btx-divider {
+	margin-top: 0px;
+	position: relative;
+	z-index: 3;
+}
+#showmax-title .btx-divider-line {
+	height: 8px !important;
+}
+
+#showmax-title-inner {
+    margin-bottom: 4px;
+}
+#showmax-title-inner h2 {
+	position: relative;
+	margin: auto;
+	padding: 0px;
+	line-height: .8em;
+    margin-bottom: -40px;
+	text-align: left ;
+	font-size: 3em;
+	color: white;
+	z-index: 1;
+	text-transform: uppercase;
+	max-width: 1200px;
+	width: 90%;
+	
+}
+
+
+
+body .btx-background-inner::after {
+	content: " ";
+	position: absolute;
+	top: -300%;  
+	left: -207%;
+	height: 600%;   
+	width: 400%;
+	background-color: rgba(0,0,0,.4444);
+	-ms-transform: rotate(-50deg); /* IE 9 */
+    -webkit-transform: rotate(-50deg); /* Chrome, Safari, Opera */
+    transform: rotate(-50deg );
+    -moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+   
+
+  
+/* Showmax CTAs */
+
+#showmax-cta .btx-image .btx-image-caption {
+	position: absolute;
+	top: 25px;
+	padding: 5px 25px;
+	font-size: 28px;
+	font-family: 'Archivo Black', 'montserrat', helvetica, arial, sans-serif;
+	color: #1B1E23;
+	background: #FFD142;
+	text-transform: uppercase;
+    text-align: left;
+    max-width: 70%;
+    line-height: 1.2em;
+}
+#showmax-cta .btx-media-wrapper a.btx-media-wrapper-inner {
+	
+}
+#showmax-cta .btx-media-wrapper a.btx-media-wrapper-inner:hover {
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;	
+}
+#showmax-cta .btx-image {
+	overflow: hidden;
+}
+#showmax-cta .btx-media-wrapper a.btx-media-wrapper-inner::after {
+	content: " ";
+	position: absolute;
+	top: -350%;
+	left: -100%;
+	height: 400%; 
+	width: 200%;
+	background-color: rgba(0,0,0,.4444);
+	-ms-transform: rotate(38deg); /* IE 9 */
+    -webkit-transform: rotate(38deg); /* Chrome, Safari, Opera */
+    transform: rotate(38deg);
+    -moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+#showmax-cta .btx-media-wrapper:hover a.btx-media-wrapper-inner::after {
+	left: -100%;
+	top: -100%;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+#showmax-cta .image-overlay {
+	height: 100%;
+	width: 100%;
+	background-color: #FFD142;
+}
+
+
+/** Home Page **/
+
+#showmax-title-home .btx-section-wrapper {
+	line-height: 5em;
+}
+
+#showmax-title-home .btx-text {
+	margin-bottom: 12px;
+}
+body.home #showmax-tag-line .btx-item {
+    padding: 0px 10% 0px 0px !important;
+}
+
+
+/** Global Styles **/
+
+body .btx-section-wrapper {
+	padding-top: 65px;
+	padding-bottom: 15px;
+}
+
+
+/** Services Page **/
+
+#showmax-services .btx-col-6 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#showmax-services .js-item-heading, #showmax-services .js-item-text {
+    padding: 0px 3%;
+}
+#showmax-services .btx-image {
+    margin-bottom: 0px;
+}
+
+
+/* FAQ page */
+body .btx-accordion-title {
+	font-weight: bold;
+}
+body.page-id-65 .btx-text-content-inner {
+	color: #f6f6f6;
+	font-weight: bold;
+}
+body .btx-light-scheme .btx-p-border-border, body .btx-light-scheme.btx-p-border-border {
+    background-color: #454547 !important;
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+body .btx-accordion-heading>.fa {
+    font-size: 1.3em;
+}
+/** Contact Page **/
+
+body #wpcf7-f4-p67-o1 {
+    padding: 0px 5%;
+}
+
+/** Footer **/
+
+footer.btx-footer {
+    margin-top: 40px;
+    background-color: black;
+}
+footer .btx-footer-column {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+footer .widget {
+    padding: 25px;
+    background: #131519;
+}
+
+@media screen and (max-width: 976px) {
+  #showmax-title h1 {
+    font-size: 4em;   
+    
+    }  
+    
+}
+@media screen and (max-width: 767px) {
+
+#showmax-title h1 {
+ font-size: 3em;   
+    
+}
+    
+    
+}

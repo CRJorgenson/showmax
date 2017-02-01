@@ -14,6 +14,10 @@ blue: #0383ED
 Dark Light Grey: ##454547
 
 */ 
+/* This is an added notes */
+
+
+
 
 /** Titles **/
 body main h1 {
@@ -43,6 +47,7 @@ body h5 {
 }
 body h6 {
 	font-family: 'PT Sans', 'Open Sans', helvetica, arial, sans-serif;
+    text-transform: uppercase;
 }
 body p {
     color: white;
